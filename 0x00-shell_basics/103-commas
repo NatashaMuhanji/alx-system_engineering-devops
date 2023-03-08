@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1Ap --group-directories-first | sed -e ':a;N;$!ba;s/\n/, /g; s/\s\+/\n/g' | sort -t $'\n' -k1.1d -k1.2n -k1.2 | sed -e 's/,$/\n/g'
