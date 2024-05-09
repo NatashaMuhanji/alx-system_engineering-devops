@@ -1,5 +1,5 @@
 # ssh config file
 Host *
       PasswordAuthentication no
-      Hostname 54.172.123.16
+      Hostname 100.24.206.176
       IdentifyFile ~/.ssh/school
